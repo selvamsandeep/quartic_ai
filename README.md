@@ -4,7 +4,7 @@
      *  Imbalanced data set, In train dafa target label has Majority class(0) 96.4%  Minority class 3.6% 
      *  Since data set is got anonymized, scope of future engineering limited
      *  To balance train data, down sampled the majority class 596K(rows) -> 51K(rows)
-     *  Done one hot encoding the categorical variable with upto 4 categories
+     *  Done one hot encoding on the categorical variables having categories upto 4 
      *  To balance the data tried to upsample the minority class with SMOTE (no improvement in result) 
      *  Tried with random forest, logistic regression, lightgbm and xgboot
      
