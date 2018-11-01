@@ -10,7 +10,7 @@
      
      
  2. #### **Model Details**
-     *  Xgboost with 5 fold cross validation and 4 bagging rounds(xgb_model_cv jupyter notebook
+     *  Xgboost with 5 fold cross validation and 4 bagging rounds(**xgb_model_cv jupyter notebook**)
      *  Final prediction is average of 4 predictions 
      *  Since data is highly imbalanced,  so accuracy can not be used to evaluate the model
      *  AUC is used as evaluation metric in xgboost training (approx 64%)
